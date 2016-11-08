@@ -1,0 +1,56 @@
+﻿@using Resources
+<!DOCTYPE html>
+<html ng-app="iPlaygroundApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" ng-controller="iPlayGround.Services.NavController as nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">iPlayground</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#games">@Default.Nav_Games</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="" ng-click="false" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">
+                            <span class="lang-sm lang-lbl" lang="@ViewBag.lang"></span> <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li ng-repeat="lang in nav.service.langs">
+                                <a href="" ng-click="nav.changeLang(lang)" class="navbar-btn">
+                                    <span class="lang-sm lang-lbl" lang="{{ lang.key }}"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <ng-view></ng-view>
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

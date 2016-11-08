@@ -1,0 +1,22 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".js" #>
+[
+<# 
+  var path = this.Host.ResolvePath("");
+  var files = Directory.GetFiles(path,"*.jpg");
+  foreach(string filePath in files){
+    var file = new FileInfo(filePath);
+    var url = file.FullName.Replace(path, "").Replace("\\", "/");
+    var enName = file.Name.Replace(file.Extension, "").Replace("-", " ");
+    WriteLine("{{path:\"{0}\",langs:[", url); 
+    WriteLine("{{name:\"en\",value:\"{0}\"}},", enName); 
+    WriteLine("{{name:\"ru\",value:\"{0}\"}}", enName); 
+    WriteLine("]},"); 
+  }
+#>
+]

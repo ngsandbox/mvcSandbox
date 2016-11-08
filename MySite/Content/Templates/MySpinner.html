@@ -1,0 +1,13 @@
+﻿<div class="btn-group pull-right votingWdt" role="group" ng-swipe-left="ngOnRight()"
+     ng-swipe-right="ngOnLeft()">
+    <button class="btn btn-default" ng-click="ngOnRight()">
+        <span class="glyphicon glyphicon-menu-left"></span>
+    </button>
+    <button class="btn btn-default disabled">
+        <span class="glyphicon {{ngBdgClass}}"></span>
+        <span class="badge">{{ngCount}}</span>
+    </button>
+    <button class="btn btn-default" ng-click="ngOnLeft()">
+        <span class="glyphicon glyphicon-menu-right"></span>
+    </button>
+</div>

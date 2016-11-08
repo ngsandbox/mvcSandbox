@@ -1,0 +1,695 @@
+[
+    {
+        "path": "/1.jpg",
+        "langs": [
+            { "name": "en", "value": "Aerosol spray" },
+            { "name": "ru", "value": "Баллончик" }
+        ]
+    },
+    {
+        "path": "/2.jpg",
+        "langs": [
+            { "name": "en", "value": "Compact disc" },
+            { "name": "ru", "value": "CD-диск" }
+        ]
+    },
+    {
+        "path": "/3.jpg",
+        "langs": [
+            { "name": "en", "value": "Green Ribbon" },
+            { "name": "ru", "value": "Зеленая лента" }
+        ]
+    },
+    {
+        "path": "/4.jpg",
+        "langs": [
+            { "name": "en", "value": "Battery" },
+            { "name": "ru", "value": "Батарейка" }
+        ]
+    },
+    {
+        "path": "/5.jpg",
+        "langs": [
+            { "name": "en", "value": "Radiator" },
+            { "name": "ru", "value": "Батарея" }
+        ]
+    },
+    {
+        "path": "/6.jpg",
+        "langs": [
+            { "name": "en", "value": "Keyring" },
+            { "name": "ru", "value": "Брелок" }
+        ]
+    },
+    {
+        "path": "/7.jpg",
+        "langs": [
+            { "name": "en", "value": "Paper boat" },
+            { "name": "ru", "value": "Бумажный кораблик" }
+        ]
+    },
+    {
+        "path": "/8.jpg",
+        "langs": [
+            { "name": "en", "value": "Paper bag" },
+            { "name": "ru", "value": "Бумажный пакет" }
+        ]
+    },
+    {
+        "path": "/9.jpg",
+        "langs": [
+            { "name": "en", "value": "Bottle cap" },
+            { "name": "ru", "value": "Бутылочные крышки" }
+        ]
+    },
+    {
+        "path": "/10.jpg",
+        "langs": [
+            { "name": "en", "value": "Roller for clothes" },
+            { "name": "ru", "value": "Валик для одежды" }
+        ]
+    },
+    {
+        "path": "/11.jpg",
+        "langs": [
+            { "name": "en", "value": "Plunger" },
+            { "name": "ru", "value": "Вантуз" }
+        ]
+    },
+    {
+        "path": "/12.jpg",
+        "langs": [
+            { "name": "en", "value": "Broom" },
+            { "name": "ru", "value": "Веник" }
+        ]
+    },
+    {
+        "path": "/13.jpg",
+        "langs": [
+            { "name": "en", "value": "Hanger" },
+            { "name": "ru", "value": "Вешалка" }
+        ]
+    },
+    {
+        "path": "/14.jpg",
+        "langs": [
+            { "name": "en", "value": "Newspaper" },
+            { "name": "ru", "value": "Газета" }
+        ]
+    },
+    {
+        "path": "/15.jpg",
+        "langs": [
+            { "name": "en", "value": "Liquid laundry detergent" },
+            { "name": "ru", "value": "Гель для стирки" }
+        ]
+    },
+    {
+        "path": "/16.jpg",
+        "langs": [
+            { "name": "en", "value": "Ironing board" },
+            { "name": "ru", "value": "Гладильная доска" }
+        ]
+    },
+    {
+        "path": "/17.jpg",
+        "langs": [
+            { "name": "en", "value": "World Globe" },
+            { "name": "ru", "value": "Глобус" }
+        ]
+    },
+    {
+        "path": "/18.jpg",
+        "langs": [
+            { "name": "en", "value": "Sponge" },
+            { "name": "ru", "value": "Губка для мытья посуды" }
+        ]
+    },
+    {
+        "path": "/19.jpg",
+        "langs": [
+            { "name": "en", "value": "Door handle" },
+            { "name": "ru", "value": "Дверная ручка" }
+        ]
+    },
+    {
+        "path": "/20.jpg",
+        "langs": [
+            { "name": "en", "value": "Door" },
+            { "name": "ru", "value": "Дверь" }
+        ]
+    },
+    {
+        "path": "/21.jpg",
+        "langs": [
+            { "name": "en", "value": "Dollars" },
+            { "name": "ru", "value": "Доллары" }
+        ]
+    },
+    {
+        "path": "/22.jpg",
+        "langs": [
+            { "name": "en", "value": "Book" },
+            { "name": "ru", "value": "Книга" }
+        ]
+    },
+    {
+        "path": "/23.jpg",
+        "langs": [
+            { "name": "en", "value": "Brush for bottles" },
+            { "name": "ru", "value": "Ершик для мытья посуды" }
+        ]
+    },
+    {
+        "path": "/24.jpg",
+        "langs": [
+            { "name": "en", "value": "Toilet brush" },
+            { "name": "ru", "value": "Ершик" }
+        ]
+    },
+    {
+        "path": "/25.jpg",
+        "langs": [
+            { "name": "en", "value": "Bucket" },
+            { "name": "ru", "value": "Жестяное ведро" }
+        ]
+    },
+    {
+        "path": "/26.jpg",
+        "langs": [
+            { "name": "en", "value": "Lighter" },
+            { "name": "ru", "value": "Зажигалка" }
+        ]
+    },
+    {
+        "path": "/27.jpg",
+        "langs": [
+            { "name": "en", "value": "Padlock" },
+            { "name": "ru", "value": "Навесной замок" }
+        ]
+    },
+    {
+        "path": "/28.jpg",
+        "langs": [
+            { "name": "en", "value": "Drain plug" },
+            { "name": "ru", "value": "Сливная пробка" }
+        ]
+    },
+    {
+        "path": "/29.jpg",
+        "langs": [
+            { "name": "en", "value": "Umbrella" },
+            { "name": "ru", "value": "Зонт" }
+        ]
+    },
+    {
+        "path": "/30.jpg",
+        "langs": [
+            { "name": "en", "value": "Playing cards" },
+            { "name": "ru", "value": "Игральные карты" }
+        ]
+    },
+    {
+        "path": "/31.jpg",
+        "langs": [
+            { "name": "en", "value": "Dice" },
+            { "name": "ru", "value": "Игральные кости" }
+        ]
+    },
+    {
+        "path": "/32.jpg",
+        "langs": [
+            { "name": "en", "value": "Cable" },
+            { "name": "ru", "value": "Кабель" }
+        ]
+    },
+    {
+        "path": "/33.jpg",
+        "langs": [
+            { "name": "en", "value": "Cactus" },
+            { "name": "ru", "value": "Кактус" }
+        ]
+    },
+    {
+        "path": "/34.jpg",
+        "langs": [
+            { "name": "en", "value": "Pencils" },
+            { "name": "ru", "value": "Карандаши 1" }
+        ]
+    },
+    {
+        "path": "/35.jpg",
+        "langs": [
+            { "name": "en", "value": "Pencils" },
+            { "name": "ru", "value": "Карандаши" }
+        ]
+    },
+    {
+        "path": "/36.jpg",
+        "langs": [
+            { "name": "en", "value": "Cardboard" },
+            { "name": "ru", "value": "Картон" }
+        ]
+    },
+    {
+        "path": "/37.jpg",
+        "langs": [
+            { "name": "en", "value": "Briefcase" },
+            { "name": "ru", "value": "Кейс" }
+        ]
+    },
+    {
+        "path": "/38.jpg",
+        "langs": [
+            { "name": "en", "value": "Keys with padlock" },
+            { "name": "ru", "value": "Ключи с замком" }
+        ]
+    },
+    {
+        "path": "/39.jpg",
+        "langs": [
+            { "name": "en", "value": "Keys" },
+            { "name": "ru", "value": "Ключи" }
+        ]
+    },
+    {
+        "path": "/40.jpg",
+        "langs": [
+            { "name": "en", "value": "Book" },
+            { "name": "ru", "value": "Книга" }
+        ]
+    },
+    {
+        "path": "/41.jpg",
+        "langs": [
+            { "name": "en", "value": "Baby carriage" },
+            { "name": "ru", "value": "Детская коляска" }
+        ]
+    },
+    {
+        "path": "/42.jpg",
+        "langs": [
+            { "name": "en", "value": "Basket" },
+            { "name": "ru", "value": "Корзина" }
+        ]
+    },
+    {
+        "path": "/43.jpg",
+        "langs": [
+            { "name": "en", "value": "Laundry basket" },
+            { "name": "ru", "value": "Корзина для белья" }
+        ]
+    },
+    {
+        "path": "/44.jpg",
+        "langs": [
+            { "name": "en", "value": "Cardboard box" },
+            { "name": "ru", "value": "Картонная коробка" }
+        ]
+    },
+    {
+        "path": "/45.jpg",
+        "langs": [
+            { "name": "en", "value": "Small box" },
+            { "name": "ru", "value": "Коробочка" }
+        ]
+    },
+    {
+        "path": "/46.jpg",
+        "langs": [
+            { "name": "en", "value": "Electric bulb" },
+            { "name": "ru", "value": "Электрическая лампочка" }
+        ]
+    },
+    {
+        "path": "/47.jpg",
+        "langs": [
+            { "name": "en", "value": "Razor blade" },
+            { "name": "ru", "value": "Лезвие бритвы" }
+        ]
+    },
+    {
+        "path": "/48.jpg",
+        "langs": [
+            { "name": "en", "value": "Watering can" },
+            { "name": "ru", "value": "Лейка" }
+        ]
+    },
+    {
+        "path": "/49.jpg",
+        "langs": [
+            { "name": "en", "value": "Decorative tape" },
+            { "name": "ru", "value": "Декоративная лента" }
+        ]
+    },
+    {
+        "path": "/50.jpg",
+        "langs": [
+            { "name": "en", "value": "Metal sponge" },
+            { "name": "ru", "value": "Металлическая губка" }
+        ]
+    },
+    {
+        "path": "/51.jpg",
+        "langs": [
+            { "name": "en", "value": "Lavender Bag" },
+            { "name": "ru", "value": "Мешочек" }
+        ]
+    },
+    {
+        "path": "/52.jpg",
+        "langs": [
+            { "name": "en", "value": "Coin" },
+            { "name": "ru", "value": "Монета" }
+        ]
+    },
+    {
+        "path": "/53.jpg",
+        "langs": [
+            { "name": "en", "value": "Spray detergent" },
+            { "name": "ru", "value": "Моющее средство" }
+        ]
+    },
+    {
+        "path": "/54.jpg",
+        "langs": [
+            { "name": "en", "value": "Garbage" },
+            { "name": "ru", "value": "Мусор" }
+        ]
+    },
+    {
+        "path": "/55.jpg",
+        "langs": [
+            { "name": "en", "value": "Rubbish bin" },
+            { "name": "ru", "value": "Мусорное ведро" }
+        ]
+    },
+    {
+        "path": "/56.jpg",
+        "langs": [
+            { "name": "en", "value": "Crumpled newspaper" },
+            { "name": "ru", "value": "Мятая газета" }
+        ]
+    },
+    {
+        "path": "/57.jpg",
+        "langs": [
+            { "name": "en", "value": "A cleaning kit" },
+            { "name": "ru", "value": "Набор для уборки" }
+        ]
+    },
+    {
+        "path": "/58.jpg",
+        "langs": [
+            { "name": "en", "value": "Vase" },
+            { "name": "ru", "value": "Напольная ваза" }
+        ]
+    },
+    {
+        "path": "/59.jpg",
+        "langs": [
+            { "name": "en", "value": "Scissors" },
+            { "name": "ru", "value": "Ножницы" }
+        ]
+    },
+    {
+        "path": "/60.jpg",
+        "langs": [
+            { "name": "en", "value": "Apple core" },
+            { "name": "ru", "value": "Яблочный огрызок" }
+        ]
+    },
+    {
+        "path": "/62.jpg",
+        "langs": [
+            { "name": "en", "value": "Origami" },
+            { "name": "ru", "value": "Оригами" }
+        ]
+    },
+    {
+        "path": "/63.jpg",
+        "langs": [
+            { "name": "en", "value": "Broken bottle" },
+            { "name": "ru", "value": "Бутылочные осколки" }
+        ]
+    },
+    {
+        "path": "/64.jpg",
+        "langs": [
+            { "name": "en", "value": "Nail file" },
+            { "name": "ru", "value": "Пилка для ногтей" }
+        ]
+    },
+    {
+        "path": "/65.jpg",
+        "langs": [
+            { "name": "en", "value": "Plastic bucket" },
+            { "name": "ru", "value": "Пластиковое ведро" }
+        ]
+    },
+    {
+        "path": "/66.jpg",
+        "langs": [
+            { "name": "en", "value": "Plastic cups" },
+            { "name": "ru", "value": "Пластиковые стаканчики" }
+        ]
+    },
+    {
+        "path": "/67.jpg",
+        "langs": [
+            { "name": "en", "value": "Magnetic tape" },
+            { "name": "ru", "value": "Магнитная лента" }
+        ]
+    },
+    {
+        "path": "/68.jpg",
+        "langs": [
+            { "name": "en", "value": "Polyethylene" },
+            { "name": "ru", "value": "Полиэтилен" }
+        ]
+    },
+    {
+        "path": "/69.jpg",
+        "langs": [
+            { "name": "en", "value": "Saucepan set" },
+            { "name": "ru", "value": "Кухонный набор" }
+        ]
+    },
+    {
+        "path": "/70.jpg",
+        "langs": [
+            { "name": "en", "value": "Doormat" },
+            { "name": "ru", "value": "Придверный коврик" }
+        ]
+    },
+    {
+        "path": "/71.jpg",
+        "langs": [
+            { "name": "en", "value": "Natural cork" },
+            { "name": "ru", "value": "Бутылочная пробка" }
+        ]
+    },
+    {
+        "path": "/72.jpg",
+        "langs": [
+            { "name": "en", "value": "Picture frame" },
+            { "name": "ru", "value": "Картинная рама" }
+        ]
+    },
+    {
+        "path": "/73.jpg",
+        "langs": [
+            { "name": "en", "value": "Flower" },
+            { "name": "ru", "value": "Растение" }
+        ]
+    },
+    {
+        "path": "/74.jpg",
+        "langs": [
+            { "name": "en", "value": "Comb" },
+            { "name": "ru", "value": "Расческа" }
+        ]
+    },
+    {
+        "path": "/75.jpg",
+        "langs": [
+            { "name": "en", "value": "Electrical socket" },
+            { "name": "ru", "value": "Электрическая розетка" }
+        ]
+    },
+    {
+        "path": "/76.jpg",
+        "langs": [
+            { "name": "en", "value": "Eggshell" },
+            { "name": "ru", "value": "Яичная скорлупа" }
+        ]
+    },
+    {
+        "path": "/77.jpg",
+        "langs": [
+            { "name": "en", "value": "Scraper" },
+            { "name": "ru", "value": "Скребок" }
+        ]
+    },
+    {
+        "path": "/78.jpg",
+        "langs": [
+            { "name": "en", "value": "Paper clip" },
+            { "name": "ru", "value": "Канцелярская скрепка" }
+        ]
+    },
+    {
+        "path": "/79.jpg",
+        "langs": [
+            { "name": "en", "value": "Dustpan and brush" },
+            { "name": "ru", "value": "Совок и щетка" }
+        ]
+    },
+    {
+        "path": "/80.jpg",
+        "langs": [
+            { "name": "en", "value": "Dustpan" },
+            { "name": "ru", "value": "Совок" }
+        ]
+    },
+    {
+        "path": "/81.jpg",
+        "langs": [
+            { "name": "en", "value": "Laundry powder" },
+            { "name": "ru", "value": "Стиральный порошок" }
+        ]
+    },
+    {
+        "path": "/82.jpg",
+        "langs": [
+            { "name": "en", "value": "Clothes horse" },
+            { "name": "ru", "value": "Сушилка для белья" }
+        ]
+    },
+    {
+        "path": "/83.jpg",
+        "langs": [
+            { "name": "en", "value": "Plastic tub" },
+            { "name": "ru", "value": "Таз" }
+        ]
+    },
+    {
+        "path": "/84.jpg",
+        "langs": [
+            { "name": "en", "value": "Duster" },
+            { "name": "ru", "value": "Напольная тряпка" }
+        ]
+    },
+    {
+        "path": "/85.jpg",
+        "langs": [
+            { "name": "en", "value": "Tube" },
+            { "name": "ru", "value": "Тюбик" }
+        ]
+    },
+    {
+        "path": "/86.jpg",
+        "langs": [
+            { "name": "en", "value": "Polyethylene bottles" },
+            { "name": "ru", "value": "Полиэтиленовые флаконы" }
+        ]
+    },
+    {
+        "path": "/87.jpg",
+        "langs": [
+            { "name": "en", "value": "Memory Stick" },
+            { "name": "ru", "value": "Флеш карта" }
+        ]
+    },
+    {
+        "path": "/88.jpg",
+        "langs": [
+            { "name": "en", "value": "Aluminium foil" },
+            { "name": "ru", "value": "Аллюминиевая фольга" }
+        ]
+    },
+    {
+        "path": "/89.jpg",
+        "langs": [
+            { "name": "en", "value": "Wall clock" },
+            { "name": "ru", "value": "Настенные часы" }
+        ]
+    },
+    {
+        "path": "/90.jpg",
+        "langs": [
+            { "name": "en", "value": "Pen" },
+            { "name": "ru", "value": "Шариковая ручка" }
+        ]
+    },
+    {
+        "path": "/91.jpg",
+        "langs": [
+            { "name": "en", "value": "Broom" },
+            { "name": "ru", "value": "Швабра" }
+        ]
+    },
+    {
+        "path": "/92.jpg",
+        "langs": [
+            { "name": "en", "value": "Swiss knife" },
+            { "name": "ru", "value": "швейцарский нож" }
+        ]
+    },
+    {
+        "path": "/93.jpg",
+        "langs": [
+            { "name": "en", "value": "Casket" },
+            { "name": "ru", "value": "Шкатулка" }
+        ]
+    },
+    {
+        "path": "/94.jpg",
+        "langs": [
+            { "name": "en", "value": "Bicycle lock" },
+            { "name": "ru", "value": "Велосипедный замок" }
+        ]
+    },
+    {
+        "path": "/95.jpg",
+        "langs": [
+            { "name": "en", "value": "Dustpan brush" },
+            { "name": "ru", "value": "Щетка для пола" }
+        ]
+    },
+    {
+        "path": "/96.jpg",
+        "langs": [
+            { "name": "en", "value": "Hairbrush" },
+            { "name": "ru", "value": "Щетка для волос" }
+        ]
+    },
+    {
+        "path": "/97.jpg",
+        "langs": [
+            { "name": "en", "value": "Brush for suede" },
+            { "name": "ru", "value": "Щетка для замши" }
+        ]
+    },
+    {
+        "path": "/98.jpg",
+        "langs": [
+            { "name": "en", "value": "Brush for utensils" },
+            { "name": "ru", "value": "Щетка для мытья посуды" }
+        ]
+    },
+    {
+        "path": "/99.jpg",
+        "langs": [
+            { "name": "en", "value": "Brush for shoes" },
+            { "name": "ru", "value": "Щетка для обуви" }
+        ]
+    },
+    {
+        "path": "/100.jpg",
+        "langs": [
+            { "name": "en", "value": "Clothes brush" },
+            { "name": "ru", "value": "Щетка для одежды" }
+        ]
+    }
+]

@@ -1,0 +1,109 @@
+﻿@using Resources
+<div class="ng-cloak container">
+    <div class="page-header" id="banner">
+        <div class="navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="memGrid" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" ng-click="nav.goTop()" class="navbar-brand">{{gridData.service.question}}</a>
+            </div>
+            <div class="navbar-collapse memGrid">
+                <form class="navbar-form navbar-right">
+                    <div class="btn-group-vertical form-group">
+                        <button class="btn btn-success disabled">
+                            <span class="label label-success badge">{{gridData.countSuc}}</span>
+                        </button>
+                        <button class="btn btn-danger disabled">
+                            <span class="label label-danger badge">{{gridData.countErr}}</span>
+                        </button>
+                    </div>
+                </form>
+                <form class="navbar-form navbar-right">
+                    <div class="btn-group-vertical votingWdt form-group">
+                        <button class="btn btn-default" ng-click="gridData.upSeconds()">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                        </button>
+                        <button class="btn btn-default disabled">
+                            <span class="glyphicon glyphicon-time"></span>
+                            <span class="badge">{{gridData.service.seconds}}</span>
+                        </button>
+                        <button class="btn btn-default" ng-click="gridData.downSeconds()">
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            @*            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">*@
+            @*                <h3 my-gmquestion="@Default.GridMem_Question">*@
+            @*                    {{gridData.service.question}}*@
+            @*                </h3>*@
+            @*            </div>*@
+            @*            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">*@
+            @*                <div class="row">*@
+            @*                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">*@
+            @*                        <div class="btn-group-vertical">*@
+            @*                            <button class="btn btn-success disabled">*@
+            @*                                <span class="label label-success badge">{{gridData.countSuc}}</span>*@
+            @*                            </button>*@
+            @*                            <button class="btn btn-danger disabled">*@
+            @*                                <span class="label label-danger badge">{{gridData.countErr}}</span>*@
+            @*                            </button>*@
+            @*                        </div>*@
+            @*                    </div>*@
+            @*                    <!--*@
+            @*                    -->*@
+            @*                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">*@
+            @*                        <div class="btn-group-vertical votingWdt">*@
+            @*                            <button class="btn btn-default" ng-click="gridData.upSeconds()">*@
+            @*                                <span class="glyphicon glyphicon-chevron-up"></span>*@
+            @*                            </button>*@
+            @*                            <button class="btn btn-default disabled">*@
+            @*                                <span class="glyphicon glyphicon-time"></span>*@
+            @*                                <span class="badge">{{gridData.service.seconds}}</span>*@
+            @*                            </button>*@
+            @*                            <button class="btn btn-default" ng-click="gridData.downSeconds()">*@
+            @*                                <span class="glyphicon glyphicon-chevron-down"></span>*@
+            @*                            </button>*@
+            @*                        </div>*@
+            @*                    </div>*@
+            @*                    <!--*@
+            @*                    -->*@
+            @*                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">*@
+            @*                        <div class="btn-group-vertical votingWdt">*@
+            @*                            <button class="btn btn-default" ng-click="gridData.upLimit()">*@
+            @*                                <span class="glyphicon glyphicon-chevron-up"></span>*@
+            @*                            </button>*@
+            @*                            <button class="btn btn-default disabled">*@
+            @*                                <span class="glyphicon glyphicon-th"></span>*@
+            @*                                <span class="badge">{{gridData.service.limit}}</span>*@
+            @*                            </button>*@
+            @*                            <button class="btn btn-default" ng-click="gridData.downLimit()">*@
+            @*                                <span class="glyphicon glyphicon-chevron-down"></span>*@
+            @*                            </button>*@
+            @*                        </div>*@
+            @*                    </div>*@
+            @*                </div>*@
+            @*            </div>*@
+            @*            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">*@
+            @*                <img class="img-responsive" src="/Content/Images/refresh.png" alt="Refresh" ng-click="gridData.init()" />*@
+            @*            </div>*@
+        </div>
+    </div>
+    <div class="row" style="padding-bottom: 10px; text-align: center;">
+        <div class="card" ng-class="gridData.cardClasses" ng-repeat="file in gridData.service.files" ng-click="gridData.flipCard (file, $event)">
+            <div class="face front thumbnail">
+                <img ng-src="{{file.Url}}" alt="{{file.Name}}" title="{{file.Name}}">
+                <div class="caption">{{file.Name}}</div>
+            </div>
+            <div class="face back thumbnail">
+                <img ng-src="~/Content/Images/cover.jpg" alt="{{file.Name}}" title="{{file.Name}}">
+                <div class="caption">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+</div>

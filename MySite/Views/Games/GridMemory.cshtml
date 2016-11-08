@@ -1,0 +1,44 @@
+﻿@using Resources
+<div class="ng-cloak container">
+    <div class="row" id="gridMenu">
+        <div class="btn-toolbar memGrid">
+            <div class="btn-group" role="group">
+                <span class="navbar-brand" my-gmquestion="@Default.GridMem_Question">{{gridMemCtrl.service.question}}</span>
+            </div>
+            <div class="btn-group pull-right" role="group">
+                <button class="btn btn-default" ng-click="gridMemCtrl.init()">
+                    <span class="glyphicon glyphicon-refresh"></span>
+                </button>
+            </div>
+            <div class="btn-group pull-right" role="group">
+                <button class="btn btn-success disabled">
+                    <span class="label label-success badge">{{gridMemCtrl.countSuc}}</span>
+                </button>
+                <button class="btn btn-danger disabled">
+                    <span class="label label-danger badge">{{gridMemCtrl.countErr}}</span>
+                </button>
+            </div>
+            <my-spinner ng-count="gridMemCtrl.service.limit" ng-on-left="gridMemCtrl.upLimit()"
+                        ng-on-right="gridMemCtrl.downLimit()" ng-bdg-class="glyphicon-th"></my-spinner>
+            <my-spinner ng-count="gridMemCtrl.service.seconds" ng-on-left="gridMemCtrl.upSeconds()"
+                        ng-on-right="gridMemCtrl.downSeconds()" ng-bdg-class="glyphicon-time"></my-spinner>
+        </div>
+    </div>
+    <div class="row" style="text-align: center;">
+        <div class="carousel slide card" data-ride="carousel"
+             ng-class="gridMemCtrl.cardClasses" ng-repeat="file in gridMemCtrl.service.files"
+             ng-click="gridMemCtrl.flipCard (file, $event)">
+            <div class="carousel-inner  img-thumbnail face front" role="listbox">
+                <div class="item active">
+                    <img ng-src="{{file.Url}}" alt="{{file.Name}}" title="{{file.Name}}" class="img-responsive" />
+                    <div class="carousel-caption">{{file.Name}}</div>
+                </div>
+            </div>
+            <div class="carousel-inner img-thumbnail face back hidden">
+                <div class="item active">
+                    <img ng-src="~/Content/Images/cover.jpg" alt="{{file.Name}}" title="{{file.Name}}" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
